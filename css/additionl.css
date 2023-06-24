@@ -22,7 +22,7 @@ body{
   border-bottom:none ;
   border-radius: 10px;
 }
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .adjust-relative{
     height: 30vh !important;
   }
