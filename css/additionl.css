@@ -1,0 +1,44 @@
+.full-back{
+    background-image: url(../asserts/full-back.jpg);
+}
+
+.wire-back{
+  background-image: url(../asserts/wire-back.png);
+}
+p{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+body{
+  color: rgb(176, 146, 89);
+  border-color: rgb(176, 146, 89);
+}
+.lightpink{
+  background-color: #F8E8EE;
+}
+.no-bottom-border{
+  border: 10px solid;
+  border-bottom:none ;
+  border-radius: 10px;
+}
+@media (min-width: 400px) {
+  .adjust-relative{
+    height: 30vh !important;
+  }
+}
+  /* .box-right {
+    --mask:
+    radial-gradient(187.50px at calc(100% - 262.50px) 50%,#000 99%,#0000 101%) 0 calc(50% - 300px)/100% 600px,
+    radial-gradient(187.50px at calc(100% + 112.50px) 50%,#0000 99%,#000 101%) calc(100% - 150px) 50%/100% 600px repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  }
+
+  .box-top {
+    --mask:
+    radial-gradient(161.00px at 50% 216.00px,#000 99%,#0000 101%) calc(50% - 144px) 0/288px 100%,
+    radial-gradient(161.00px at 50% -144px,#0000 99%,#000 101%) 50% 72px/288px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  } */
